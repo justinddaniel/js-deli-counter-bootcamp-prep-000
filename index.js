@@ -9,7 +9,13 @@ function nowServing(katzDeliLine) {
   }
 }
 function currentLine(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
-    return ('The line is currently empty.') }
-    else {return (`The line is currently: ${katzDeliLine}`)}
+ const katzDeliLineN = []
+ let i = 0
+ if (katzDeliLine.length === 0) {
+   return ('The line is currently empty.') }
+ else {while (i < katzDeliLine.length) {
+   katzDeliLineN.push(` ${i+1}. ${katzDeliLine[i-1]} `)
+   i++
+   return (`The line is currently: ${katzDeliLineN}`)}
+}
 }
