@@ -18,4 +18,3 @@ function currentLine(katzDeliLine) {
    i++}
    return (`The line is currently: ${Line}`)}
 }
-
