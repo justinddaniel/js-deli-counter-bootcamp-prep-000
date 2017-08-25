@@ -9,4 +9,3 @@ function nowServing(katzDeliLine) {
   katzDeliLine.shift()
   }
 }
-
