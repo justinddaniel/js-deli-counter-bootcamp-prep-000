@@ -8,4 +8,8 @@ function nowServing(katzDeliLine) {
   else {return (`Currently serving ${katzDeliLine.shift()}.`)
   }
 }
-function 
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+    return ('There is currently empty.') }
+    else {return (`The line is currently: ${katzDeliLine}`)}
+}
