@@ -9,13 +9,13 @@ function nowServing(katzDeliLine) {
   }
 }
 function currentLine(katzDeliLine) {
- const katzDeliLineN = []
+ const Line = []
  let i = 0
  if (katzDeliLine.length === 0) {
    return ('The line is currently empty.') }
  else {while (i < katzDeliLine.length) {
-   katzDeliLineN.push(` ${i+1}. ${katzDeliLine[i-1]} `)
+   Line.push(` ${i+1}. ${katzDeliLine[i-1]} `)
    i++
-   return (`The line is currently: ${katzDeliLineN}`)}
+   return (`The line is currently: ${Line}`)}
 }
 }
